@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    ivy {
+        url "http://ivy.petrikainulainen.net/repo"
+    }
+}
+
+group 'com.yig.spring'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    compile 'cglib:cglib:3.3.0'
+    compile 'cn.hutool:hutool-all:5.6.6'
+    implementation 'org.openjdk.jol:jol-core:0.16'
+}
