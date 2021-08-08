@@ -1,6 +1,6 @@
 package com.yig.springframework.context.event;
 
-import com.yig.springframework.beans.factory.BeanFactory;
+import com.yig.springframework.test.bean.factory.BeanFactory;
 import com.yig.springframework.context.ApplicationEvent;
 import com.yig.springframework.context.ApplicationListener;
 

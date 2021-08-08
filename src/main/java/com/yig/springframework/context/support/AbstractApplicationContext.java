@@ -1,9 +1,9 @@
 package com.yig.springframework.context.support;
 
-import com.yig.springframework.beans.BeansException;
-import com.yig.springframework.beans.factory.ConfigurableListableBeanFactory;
-import com.yig.springframework.beans.factory.config.BeanFactoryPostProcessor;
-import com.yig.springframework.beans.factory.config.BeanPostProcessor;
+import com.yig.springframework.test.bean.BeansException;
+import com.yig.springframework.test.bean.factory.ConfigurableListableBeanFactory;
+import com.yig.springframework.test.bean.factory.config.BeanFactoryPostProcessor;
+import com.yig.springframework.test.bean.factory.config.BeanPostProcessor;
 import com.yig.springframework.context.ApplicationListener;
 import com.yig.springframework.context.ConfigurableApplicationContext;
 import com.yig.springframework.context.event.*;

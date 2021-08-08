@@ -1,6 +1,6 @@
 package com.yig.springframework.context;
 
-import com.yig.springframework.beans.BeansException;
+import com.yig.springframework.test.bean.BeansException;
 
 /**
  * SPI interface to be implemented by most if not all application contexts.

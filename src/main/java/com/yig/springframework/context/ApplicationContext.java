@@ -1,7 +1,7 @@
 package com.yig.springframework.context;
 
-import com.yig.springframework.beans.factory.HierarchicalBeanFactory;
-import com.yig.springframework.beans.factory.ListableBeanFactory;
+import com.yig.springframework.test.bean.factory.HierarchicalBeanFactory;
+import com.yig.springframework.test.bean.factory.ListableBeanFactory;
 import com.yig.springframework.core.io.ResourceLoader;
 
 /**

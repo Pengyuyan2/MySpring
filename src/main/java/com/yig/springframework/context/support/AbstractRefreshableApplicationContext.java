@@ -1,8 +1,8 @@
 package com.yig.springframework.context.support;
 
-import com.yig.springframework.beans.BeansException;
-import com.yig.springframework.beans.factory.ConfigurableListableBeanFactory;
-import com.yig.springframework.beans.factory.support.DefaultListableBeanFactory;
+import com.yig.springframework.test.bean.BeansException;
+import com.yig.springframework.test.bean.factory.ConfigurableListableBeanFactory;
+import com.yig.springframework.test.bean.factory.support.DefaultListableBeanFactory;
 import com.yig.springframework.context.ApplicationContext;
 
 /**

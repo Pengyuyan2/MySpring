@@ -1,7 +1,7 @@
 package com.yig.springframework.context.support;
 
-import com.yig.springframework.beans.factory.support.DefaultListableBeanFactory;
-import com.yig.springframework.beans.factory.xml.XmlBeanDefinitionReader;
+import com.yig.springframework.test.bean.factory.support.DefaultListableBeanFactory;
+import com.yig.springframework.test.bean.factory.xml.XmlBeanDefinitionReader;
 import com.yig.springframework.context.ApplicationContext;
 
 /**

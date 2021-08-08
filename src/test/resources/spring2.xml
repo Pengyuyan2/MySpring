@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <beans>
-<!--    <bean id="userDao" class="com.yig.springframework.beans.dao.UserDao" init-method="initDataMethod" destroy-method="destroyDataMethod"/>-->
+<!--    <bean id="userDao" class="UserDao" init-method="initDataMethod" destroy-method="destroyDataMethod"/>-->
     <!-- 使用代理类的方式注入IUserDao的实现 -->
-    <bean id="proxyUserDao" class="com.yig.springframework.beans.bean.ProxyBeanFactory" />
-    <bean id="userService" class="com.yig.springframework.beans.service.UserService">
+    <bean id="proxyUserDao" class="com.yig.springframework.test.bean.bean.ProxyBeanFactory" />
+    <bean id="userService" class="com.yig.springframework.test.bean.service.UserService">
         <property name="uid" value="1001" />
         <property name="company" value="太阳系无敌公司"/>
         <property name="location" value="太阳系"/>

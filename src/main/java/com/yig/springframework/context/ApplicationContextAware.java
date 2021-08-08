@@ -1,7 +1,7 @@
 package com.yig.springframework.context;
 
-import com.yig.springframework.beans.BeansException;
-import com.yig.springframework.beans.factory.Aware;
+import com.yig.springframework.test.bean.BeansException;
+import com.yig.springframework.test.bean.factory.Aware;
 
 /**
  * 实现此接口，既能感知到所属的 ApplicationContext

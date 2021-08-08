@@ -1,7 +1,7 @@
 package com.yig.springframework.context.support;
 
-import com.yig.springframework.beans.BeansException;
-import com.yig.springframework.beans.factory.config.BeanPostProcessor;
+import com.yig.springframework.test.bean.BeansException;
+import com.yig.springframework.test.bean.factory.config.BeanPostProcessor;
 import com.yig.springframework.context.ApplicationContext;
 import com.yig.springframework.context.ApplicationContextAware;
 
